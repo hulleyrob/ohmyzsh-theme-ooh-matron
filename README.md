@@ -30,7 +30,7 @@ An oh-my-zsh theme
     ```
     you can run
    ```
-   sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="ooh-matron"/g' ~/.zshrc
+   sed -i 's/ZSH_THEME=".*"/ZSH_THEME="ooh-matron"/g' ~/.zshrc
     ```
 11. execute zshrc
     ```
